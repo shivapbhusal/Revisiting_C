@@ -6,3 +6,5 @@ gcc -o executable_name file_name
 * Execute the executable as: 
 ./executable_name
 ./hello
+
+* Enjoy the program. 
