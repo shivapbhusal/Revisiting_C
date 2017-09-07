@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+	int a=strend("Hello","Hello"); 
+	int b=strend("Hello","owl"); 
+
+}
+int strend(char *ps, char *pt)
+{
+	int length1=strlength("Hello"); 
+	printf("%d",length1); 
+	return 1; 
+}
+int strlength( char *pa)
+{
+int i; 
+while(*(pa+i)!='\0')
+{
+	i++; 
+}
+return i; 
+}

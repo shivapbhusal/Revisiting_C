@@ -2,7 +2,11 @@
 main()
 {
 	int stringLength=strlen("hello World");
-	printf("%d",stringLength);
+	int stringLength2=strlen("My name is red"); 
+	int stringLength3=strlen("There are many artists in the world");
+	printf("%d\n",stringLength);
+	printf("%d\n",stringLength2); 
+	printf("%d\n",stringLength3); 	
 }
 int strlen(char *s)
 {
