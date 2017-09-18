@@ -9,23 +9,24 @@ int main(void)
     printf("\n Enter the password : \n");
     gets(buff);
 
-    if(strcmp(buff, "thegeekstuff"))
-    {
-        printf ("\n Wrong Password \n");
-    }
-    else
+    if(strcmp(buff, "hello")==0)
     {
         printf ("\n Correct Password \n");
         pass = 1;
+
+    }
+    else
+    {
+        printf("\n Wrong Password \n");
     }
 
     if(pass)
     {
        /* Now Give root rights to user*/
-        printf ("\n Root privileges given to the user \n");
+        printf ("\nLogin Successful\n");
     }
     else {
-        printf ("\n Root privileges not given to user\n")
+        printf ("\n Login Failed \n");
     }
 
     return 0;

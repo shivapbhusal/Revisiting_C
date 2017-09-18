@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1505771176 source:d:\projects\revisiting_c\bufferoverflow\main.c
+	<stdio.h>
+	<string.h>
+
